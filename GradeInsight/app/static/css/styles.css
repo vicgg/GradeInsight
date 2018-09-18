@@ -1,0 +1,147 @@
+.upload, .preupload {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+}
+
+
+.upload + label{
+    width: 200px;
+    height:40px;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    line-height: 2.6em;
+    text-align: center;
+    background-color: #ef494f;
+    display: inherit;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px #a73337;
+    transition: 150ms;
+    margin-top: 20px;
+}
+.upload:focus + label,
+.upload + label:hover {
+    background-color: #ff6c71;
+    box-shadow: 0px 5px 0px #d03338;
+    cursor:pointer;
+}
+.upload:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.btn-file {
+    margin-left: -30px;
+}
+
+.preupload + label{
+    width: 200px;
+    height:40px;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    line-height: 2.6em;
+    text-align: center;
+    background-color: #a7a1a1;
+    display: inherit;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px #848282;
+    transition: 150ms;
+    margin-top: 20px;
+}
+
+#number {
+    margin-top: 27px;
+    margin-bottom: -50px;
+/*
+	margin-top: -40px;
+	font-size: 1em;
+    font-weight: 400;
+    float: right;
+    margin-right: 64%;
+*/
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 50%;
+}
+
+.card-deck .card {
+  min-width: 40%;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.details_container{
+    max-width: 84%;
+}
+
+.filename {
+    min-height: 56px;
+}
+.dropdown {
+    margin-top: 7px;
+}
+
+.fixed-table-body {
+    height: auto;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    max-height: 85%;
+    overflow-y: auto;
+}
+
+.table{
+    font-size: 12px;
+}
+
+.variable_values{
+    color: #007bfe;
+}
+
+.prepare{
+    padding-left: 77px;
+}
+
+#prepare {
+    margin-top: 24px;
+}
+
+.resulting_cols{
+    padding: 10px 10px;
+    text-align: left;
+}
+
+#target_columns{
+    text-align: left;
+}
+
+.list-group-item{
+    padding: 3px 10px;
+}
+
+#upload_target{
+    display: none;
+    margin-top: 24px;
+}
+
+#go_ws{
+    display: none;
+    margin-top: 24px;
+}
